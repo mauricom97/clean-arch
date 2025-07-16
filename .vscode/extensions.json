@@ -1,0 +1,46 @@
+{
+  "recommendations": [
+    // Extensões essenciais para TypeScript/NestJS
+    "ms-vscode.vscode-typescript-next",
+    "bradlc.vscode-tailwindcss",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    
+    // Extensões para desenvolvimento
+    "ms-vscode.vscode-json",
+    "redhat.vscode-yaml",
+    "ms-vscode.vscode-npm-dependency",
+    "christian-kohler.path-intellisense",
+    "ms-vscode.vscode-node-debug2",
+    
+    // Extensões para produtividade
+    "usernamehw.errorlens",
+    "gruntfuggly.todo-tree",
+    "aaron-bond.better-comments",
+    "wayou.vscode-todo-highlight",
+    "streetsidesoftware.code-spell-checker",
+    
+    // Extensões para Git
+    "eamodio.gitlens",
+    "mhutchie.git-graph",
+    
+    // Extensões para testes
+    "orta.vscode-jest",
+    "ms-vscode.test-adapter-converter",
+    
+    // Extensões para Docker (se usar)
+    "ms-azuretools.vscode-docker",
+    
+    // Extensões para API
+    "humao.rest-client",
+    "42crunch.vscode-openapi",
+    
+    // Extensões para documentação
+    "yzhang.markdown-all-in-one",
+    "davidanson.vscode-markdownlint",
+    
+    // Extensões de tema (opcional)
+    "github.github-vscode-theme",
+    "pkief.material-icon-theme"
+  ]
+}

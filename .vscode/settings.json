@@ -1,0 +1,85 @@
+{
+  // Configurações do Editor
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.rulers": [80, 120],
+  "editor.wordWrap": "bounded",
+  "editor.wordWrapColumn": 120,
+  
+  // Configurações de TypeScript
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.suggest.autoImports": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  
+  // Configurações do ESLint
+  "eslint.validate": [
+    "javascript",
+    "typescript"
+  ],
+  "eslint.format.enable": true,
+  
+  // Configurações do Prettier
+  "prettier.requireConfig": true,
+  "prettier.useEditorConfig": false,
+  
+  // Configurações de arquivos
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/coverage": true
+  },
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/dist/**": true,
+    "**/coverage/**": true
+  },
+  
+  // Configurações de busca
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/coverage": true,
+    "**/.git": true
+  },
+  
+  // Configurações do Explorer
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js, ${capture}.d.ts, ${capture}.js.map",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+    ".eslintrc.*": ".eslintignore",
+    ".prettierrc.*": ".prettierignore"
+  },
+  
+  // Configurações do Terminal
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "terminal.integrated.fontSize": 12,
+  
+  // Configurações do Git
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  
+  // Configurações específicas do NestJS
+  "emmet.includeLanguages": {
+    "typescript": "html"
+  },
+  
+  // Configurações de problemas
+  "problems.decorations.enabled": true,
+  
+  // Auto salvar
+  "files.autoSave": "onFocusChange"
+}
