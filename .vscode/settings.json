@@ -12,23 +12,20 @@
   "editor.rulers": [80, 120],
   "editor.wordWrap": "bounded",
   "editor.wordWrapColumn": 120,
-  
+
   // Configurações de TypeScript
   "typescript.preferences.importModuleSpecifier": "relative",
   "typescript.suggest.autoImports": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
-  
+
   // Configurações do ESLint
-  "eslint.validate": [
-    "javascript",
-    "typescript"
-  ],
+  "eslint.validate": ["javascript", "typescript"],
   "eslint.format.enable": true,
-  
+
   // Configurações do Prettier
   "prettier.requireConfig": true,
   "prettier.useEditorConfig": false,
-  
+
   // Configurações de arquivos
   "files.exclude": {
     "**/node_modules": true,
@@ -42,7 +39,7 @@
     "**/dist/**": true,
     "**/coverage/**": true
   },
-  
+
   // Configurações de busca
   "search.exclude": {
     "**/node_modules": true,
@@ -50,7 +47,7 @@
     "**/coverage": true,
     "**/.git": true
   },
-  
+
   // Configurações do Explorer
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.patterns": {
@@ -63,23 +60,23 @@
     ".eslintrc.*": ".eslintignore",
     ".prettierrc.*": ".prettierignore"
   },
-  
+
   // Configurações do Terminal
   "terminal.integrated.defaultProfile.linux": "bash",
   "terminal.integrated.fontSize": 12,
-  
+
   // Configurações do Git
   "git.autofetch": true,
   "git.confirmSync": false,
-  
+
   // Configurações específicas do NestJS
   "emmet.includeLanguages": {
     "typescript": "html"
   },
-  
+
   // Configurações de problemas
   "problems.decorations.enabled": true,
-  
+
   // Auto salvar
   "files.autoSave": "onFocusChange"
 }
